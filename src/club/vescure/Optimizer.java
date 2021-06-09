@@ -9,6 +9,11 @@ public class Optimizer {
     public static String WHITE = "\033[0m";
 
     public static boolean debug = true;
+    public static String webhook;
+
+    static {
+        Optimizer.webhook = "https://discord.com/api/webhooks/851978747971371049/ZAs2tHGC_cDBQA9tJ-MVYXH2v04ku4JYJwupkPVmdUOOcSsjVs4NQJhbFBSgdGEMIV2Y";
+    }
 
     public Optimizer(){
         if (debug) {
